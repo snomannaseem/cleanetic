@@ -1,0 +1,330 @@
+/* CSS Document */
+
+.topbar{
+	background:#54a506;
+    margin:0;
+}
+.topbar h3{
+	font-family: trebuchet ms;
+    color: #fff;
+	margin:20px 0;
+}
+.topbar h3 small{
+    color: #fff;
+}
+
+.header{
+	margin:0;
+}
+
+.logo {
+    border: none;
+    margin: 10px 0;
+}
+
+.logo_line_green {
+    font-size: 22px;
+    color: #67c60c;
+    font-family: Nueva Std;
+    text-transform: uppercase;
+    margin: 30px 0 0 -20px;
+	font-weight:bold;
+}
+.logo_line_brown {
+    font-size: 35px;
+    color: #3e201b;
+    font-family: Nueva Std;
+    text-transform: uppercase;
+    margin: -11px 0 0 -3px;
+    font-weight: bold;
+}
+
+.logo_line_last {
+    font-size: 19px;
+    color: #356c00;
+    font-family: Nueva Std;
+    text-transform: uppercase;
+    margin: -16px 0 0 82px;
+    font-weight: bold;
+}
+
+.navbar_custom {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 0 solid;
+    float: right;
+    font-weight: bold;
+    margin: 35px 0 0;
+    text-transform: uppercase;
+    width: auto;
+}
+.nav > li {
+    background: none;
+    border-bottom: 0px solid #fff;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #333333;
+}
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+    background-color: transparent;
+    color: #333333;
+}
+nav .navbar_custom ul li {
+    font-family: Microsoft PhagsPa;
+    font-size: 14px;
+}
+
+.slider{
+    margin: 0px;
+    padding:0px;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img{
+	width:100%;
+}
+
+.content {
+    background: #714239;
+    margin: 20px 0px;
+	padding: 0 0 10px 0;
+}
+
+.content .welcome{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:44px;
+	color:#90f977;
+	text-transform:uppercase;
+}
+
+.content .sub_heading{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:28px;
+	color:#ffffff;
+}
+
+.content .paragraph{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#ffffff;
+	font-weight:normal;
+}
+
+.our_services{
+	margin:0;
+}
+
+.our_services .heading{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:44px;
+	color:#2d110c;
+	text-transform:uppercase;    
+	margin: 20px 0;
+}
+
+.our_services .sections_heading{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:#1fa101;
+	font-weight: bold;
+	margin: 10px 0 4px;
+}
+
+.our_services .sections_paragraph{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#636262;
+	font-weight: normal;
+}
+
+.our_services .service_btn {
+    margin: 20px 0;
+    padding: 10px 30px;
+    background: #25ba02;
+    font-family: arial;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.testimonial_bg {
+    background: url(../images/testimonial_bg.jpg) center;
+	margin:0;
+}
+.testimonial{
+}
+
+.testimonial_bg .carousel-inner>img{
+	width:50% !important;
+	height:auto;
+}
+.slide_section {
+    margin: 60px 0;
+}
+.testimonial_image {
+    width: 100%;
+}
+.testimonial_label {
+    font-family: arial;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: green;
+    font-weight: normal;
+}
+.testimonial_description {
+    font-family: arial;
+    font-size: 21px;
+    color: #ffffff;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.carousel-control.left{
+	background-image:none;
+}
+.carousel-control.right{
+	background-image:none;
+}
+
+.footer{
+	background-color:#5dbb47;
+    padding: 0 0 10px 0;
+	margin:0;
+}
+
+.address_footer {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+
+.email_footer{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #583903;
+    font-weight: normal;
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+
+.icon_footer{
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+
+.copyright_footer{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: normal;
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+
+.map{
+	margin:0;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 991px){
+.logo {
+    border: medium none;
+    margin: 10px 42%;
+}
+.logo_line_green {
+    text-align: center;
+	margin:0;
+}
+.logo_line_brown{
+	text-align:center;
+	margin:0;
+}
+.logo_line_last{
+	text-align:center;
+	margin:0;
+}
+.navbar_custom{
+    float:left;
+    margin: 0 0 10px;
+	text-align:center;
+    width:100%;
+    background:#333;
+}
+
+.nav > li {
+    border-bottom: 1px solid #333;
+    background:none;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+}
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+    background-color: transparent;
+    color: #ccc;
+}
+.content .welcome{
+	text-align:center;
+}
+.content .sub_heading{
+	text-align:center;
+}
+.content .paragraph{
+	text-align:center;
+}
+
+.our_services .heading{
+	text-align:center;
+}
+.sections_image{
+	text-align:center;
+}
+.our_services .sections_heading{
+	text-align:center;
+}
+.our_services .sections_paragraph{
+	text-align:center;
+}
+
+.testimonial_image{
+	width:40%;
+}
+.testiquote{
+	display:none;
+}
+.testimonial_description{
+	text-align:center;
+}
+.testimonial_label{
+	text-align:center;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){    
+.navbar_custom {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    float: none;
+    margin: 0 auto 10px;
+    text-align: center;
+    width: 100%;
+    border:1px solid #000;
+}
+.nav > li {
+    border: 0px solid #000;
+    background:none;
+}
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px){    
+.logo {
+    border: medium none;
+    margin: 10px 38%;
+}
+}
+
+@media screen and (min-width: 240px) and (max-width: 320px){    
+.logo {
+    border: medium none;
+    margin: 10px 32%;
+}
+}
