@@ -47,10 +47,7 @@
     margin: -16px 0 0 82px;
     font-weight: bold;
 }
-.nav_bar {
-    margin: 0;
-    padding: 0;
-}
+
 .navbar_custom {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
     border: 0 solid;
@@ -68,8 +65,8 @@
     color: #333333;
 }
 .navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
-    background-color: #333333;
-    color: #ffffff;
+    background-color: transparent;
+    color: #333333;
 }
 nav .navbar_custom ul li {
     font-family: Microsoft PhagsPa;
@@ -104,19 +101,11 @@ nav .navbar_custom ul li {
 	color:#ffffff;
 }
 
-.content .small_heading{
-	color:#ffffff;
-}
-
 .content .paragraph{
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:14px;
 	color:#ffffff;
 	font-weight:normal;
-}
-
-.content .paragraph a{
-	color:#ffffff;
 }
 
 .our_services{
@@ -218,9 +207,7 @@ nav .navbar_custom ul li {
     margin: 10px 0 0 0;
     padding: 0;
 }
-.email_footer a{
-	color:#583903;
-}
+
 .icon_footer{
     margin: 10px 0 0 0;
     padding: 0;
@@ -239,43 +226,6 @@ nav .navbar_custom ul li {
 	margin:0;
 }
 
-.label_color{
-	color:#fff
-}
-
-.validation_color{
-	color:lightcoral;
-}
-
-
-@media screen and (min-width: 1024px) and (max-width: 1199px){
-.logo_line_green {
-    margin: 30px 0 0 0px;
-}
-.logo_line_brown {
-    margin: -11px 0 0 8px;
-}
-.logo_line_last {
-    margin: -16px 0 0 99px;
-}
-}
-@media screen and (min-width: 768px) and (max-width: 1023px){
-.navbar_custom {
-    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-    float: none;
-    margin: 0 auto 10px;
-    text-align: center;
-    width: 100%;
-    border:1px solid #000;
-}
-.nav > li {
-    border: 0px solid #000;
-    background:none;
-}
-.navbar-inverse .navbar-nav > li > a {
-    color: #333333;
-}
-}
 
 @media screen and (min-width: 320px) and (max-width: 991px){
 .logo {
@@ -350,7 +300,20 @@ nav .navbar_custom ul li {
 }
 }
 
-
+@media screen and (min-width: 768px) and (max-width: 1023px){    
+.navbar_custom {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    float: none;
+    margin: 0 auto 10px;
+    text-align: center;
+    width: 100%;
+    border:1px solid #000;
+}
+.nav > li {
+    border: 0px solid #000;
+    background:none;
+}
+}
 
 @media screen and (min-width: 320px) and (max-width: 480px){    
 .logo {
