@@ -3,7 +3,7 @@
         
         <?php
 			if(isset($_POST['submit']) && isset($_POST['flag']) && $_POST['flag'] == 1){
-					
+					//print_r($_POST);
 				$name 	 = $_POST['name'];
 				$email 	 = $_POST['email'];
 				$subject = $_POST['subject'];
@@ -24,6 +24,9 @@
 				}
 				if(empty($message)){
 					$message_error = "Message is Required!";
+				}
+				if(empty($_POST['g-recaptcha-response'])){
+					$captcha_error = "Please fill the captcha again!";
 				}
 			
 					
@@ -49,7 +52,7 @@
 				} 
 			}
 		?>
-        
+        <script src="https://www.google.com/recaptcha/api.js"></script>
         <!-- Start Welcome -->
         <div class="row content">
             <div class="col-md-8">
@@ -89,14 +92,26 @@
                                 <input type="text" class="form-control" id="phone" name="phone" placeholder="Enter Phone Number">
                             </div>  
                         </div>
-                    </div>                   
-                                   
-                    <div class="form-group">
-                        <label for="message" class="label_color">Message: *</label>
-                        <span class="validation_color"><?php echo isset($message_error)?$message_error:''; ?></span>
-                        <textarea type="text" class="form-control" id="message" name="message" placeholder="Enter Message"></textarea>
+                        
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="message" class="label_color">Message: *</label>
+                                <span class="validation_color"><?php echo isset($message_error)?$message_error:''; ?></span>
+                                <textarea type="text" class="form-control" id="message" name="message" placeholder="Enter Message"></textarea>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <span class="validation_color"><?php echo isset($captcha_error)?$captcha_error:''; ?></span>
+                                <div class="g-recaptcha" data-sitekey="6LfeECETAAAAADZ2zfU9y5d_-psCVVH4teu3BpO3"></div>                      
+                            </div>
+                        </div>
+                    </div>  
+                                        
+                    <div class="col-md-7">
+                        <button type="submit" name="submit" class="btn btn-success">Submit</button>
                     </div>
-                    <button type="submit" name="submit" class="btn btn-success">Submit</button>
                 </form>
             </div>
             

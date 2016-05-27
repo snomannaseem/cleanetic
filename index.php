@@ -68,7 +68,9 @@
                 </div>
                 <div class="row">
                 	<div class="col-md-12 text-center">
-                		<button type="button" class="btn btn-primary btn-success service_btn">All Services</button>
+                		<a href="services.php">
+                            <button type="button" class="btn btn-primary btn-success service_btn" >All Services</button>
+                        </a>
                     </div>
                 </div>
             </div>
