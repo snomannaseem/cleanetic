@@ -108,10 +108,7 @@
                             </div>
                         </div>
                     </div>  
-                                        
-                    <div class="col-md-7">
-                        <button type="submit" name="submit" class="btn btn-success">Submit</button>
-                    </div>
+                    <button type="submit" name="submit" class="btn btn-success">Submit</button>
                 </form>
             </div>
             
